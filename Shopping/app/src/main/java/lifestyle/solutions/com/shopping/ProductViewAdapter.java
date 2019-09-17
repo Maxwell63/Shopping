@@ -21,7 +21,7 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 /**
- * Created by HLNKA on 2017/09/11.
+ * Created by 63 on 2017/09/11.
  */
 
 public class ProductViewAdapter extends PagerAdapter {

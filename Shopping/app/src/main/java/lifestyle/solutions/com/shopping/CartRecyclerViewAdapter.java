@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by HLNKA on 2017/09/20.
+ * Created by 63 on 2017/09/20.
  */
 
 public class CartRecyclerViewAdapter extends RecyclerView.Adapter<CartRecyclerViewAdapter.DataObjectHolder> {

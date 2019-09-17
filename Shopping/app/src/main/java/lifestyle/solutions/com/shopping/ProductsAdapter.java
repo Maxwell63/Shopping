@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
 /**
- * Created by HLNKA on 2017/09/11.
+ * Created by 63 on 2017/09/11.
  */
 
 public class ProductsAdapter extends BaseAdapter {
