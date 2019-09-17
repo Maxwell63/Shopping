@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_products"
+            android:title="Products"
+            android:icon="@drawable/vape"/>
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/help"/>
+    </group>
+    <!--
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+    -->
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_user_settings"
+                    android:title="My Account"
+                    android:icon="@drawable/my_account"/>
+                <!--
+                <item
+                    android:id="@+id/nav_cart"
+                    android:title="Cart" />
+                    -->
+                <item
+                    android:id="@+id/nav_order_history"
+                    android:title="Orders &amp; Returns"
+                    android:icon="@drawable/order"/>
+                <!--
+                <item
+                    android:id="@+id/nav_delivery"
+                    android:title="Delivery"
+                    android:icon="@drawable/order"/>
+                    -->
+                <item
+                    android:id="@+id/nav_signin"
+                    android:title="Login/Sign Up"
+                    android:icon="@drawable/lock"/>
+            </group>
+        </menu>
+    </item>
+</menu>

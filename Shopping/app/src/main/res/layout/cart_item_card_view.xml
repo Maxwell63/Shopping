@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgItem"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Item"
+            android:id="@+id/tvItemName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/tvItemName"
+            android:text="Item Description"
+            android:id="@+id/tvDesc"/>
+
+        <Spinner
+            android:layout_width="59dp"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:id="@+id/spinnerItemCount"
+            android:layout_below="@+id/tvDesc">
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/spinnerItemCount"
+            android:textStyle="bold"
+            android:text="ZAR10.00"
+            android:id="@+id/tvPriceTotal"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_rectangle">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card #"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/card"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XXXX XXXX XXXX 0360"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tvCardNumber"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/card"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPIRE"
+            android:textSize="8dp"
+            android:id="@+id/expire"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/tvCardNumber"
+            android:layout_alignParentLeft="true"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvExpiryDate"
+            android:text="12/18"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_alignTop="@+id/expire"
+            android:layout_toRightOf="@+id/expire"
+            android:layout_toEndOf="@+id/expire" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:id="@+id/imgCardType"
+            android:background="@drawable/visa"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:drawable/ic_delete"
+            android:id="@+id/btnDelete"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"/>
+    </RelativeLayout>
+
+</FrameLayout>
