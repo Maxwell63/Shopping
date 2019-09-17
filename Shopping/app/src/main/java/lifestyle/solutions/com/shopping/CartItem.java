@@ -1,7 +1,7 @@
 package lifestyle.solutions.com.shopping;
 
 /**
- * Created by HLNKA on 2017/09/20.
+ * Created by 63 on 2017/09/20.
  */
 
 public class CartItem {
